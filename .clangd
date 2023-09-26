@@ -1,0 +1,17 @@
+Diagnostics:
+  ClangTidy:
+    Add:
+      - 'modernize*'
+      - 'readability-*'
+      - 'bugprone-*'
+      - 'performance-*'
+    Remove:
+      - 'modernize-avoid-c-arrays'
+      - 'readability-identifier-length'
+      - 'readability-qualified-auto'
+      - 'readability-braces-around-statements'
+      - 'readability-implicit-bool-conversion'
+      - 'readability-redundant-access-specifiers'
+      - 'readability-magic-numbers'
+      - 'readability-convert-member-functions-to-static'
+      - 'bugprone-easily-swappable-parameters'
